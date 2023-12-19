@@ -107,8 +107,12 @@ function App() {
       <footer>
         <p> Diseñado por Sebastian Olaran</p>
         <div className="social">
-          <img src=".\src\assets\linkedin.png" href=""></img>
-          <img src=".\src\assets\github.png"></img>
+        <a href="https://github.com/sebastianolaran">
+          <img src="./src/assets/github.png" alt="GitHub" />
+        </a>
+        <a href="https:/linkedin.com/in/sebastianolaran">
+          <img src="./src/assets/linkedin.png" alt="GitHub" />
+        </a>
 
         </div>
       </footer>
