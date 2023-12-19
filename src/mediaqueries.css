@@ -1,0 +1,132 @@
+@media screen and (max-width : 1200px){
+    
+
+    .navbar{
+        height: auto;
+    }
+
+    h1{
+        font-size: 2rem;
+        font-weight: 700;
+    }
+      /*  Carta principal*/
+
+    .pronostico_hoy{
+    background-color: white;
+    height: auto;
+    border-radius :1rem; ;
+    width: auto;
+    
+   
+  
+  }
+  .pronostico_hoy h2{
+    font-size: 1,3rem;
+  }
+
+  
+  .info_pronostico{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    gap: 1rem;
+  }
+  
+  .carta_main{
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .carta_main .ciudad{
+    font-weight: 400;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+  }
+
+  
+  .temperaturas{
+    display: flex;
+    width: auto;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .temperaturas h2 {
+    font-size: 3rem ;
+  }
+  
+  .temperaturas img{
+    height: 100px;
+    width: 100px;
+  }
+  
+  .carta_main p{
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  /* Info extra*/
+
+    .info_pronostico_extra{
+  
+    width: auto;
+  }
+  
+  .info_pronostico_extra h3{
+    font-size: 1.5rem; 
+    
+  }
+  
+  
+  
+  .topes{
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .maximo{
+    display: flex;
+    gap: 1rem;
+  }
+  
+  
+  .infoextra{
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  
+  .info{
+    margin-top: 2rem;
+    display: flex;
+    
+    
+  }
+  
+  
+  
+  .infoextra .info p{
+    font-size: 1.1rem;
+  }
+  
+  
+  
+  
+
+}

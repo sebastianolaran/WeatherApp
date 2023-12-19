@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import './App.css';
+import './mediaqueries.css'
 import axios from "axios"
 import { obtener_datos } from './componentes/obtener_datos';
 
